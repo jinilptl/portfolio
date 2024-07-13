@@ -5,7 +5,7 @@ import Allicon from "./icon";
 
 let Contectmain = () => {
   return (
-    <div>
+    <div id="contact">
 
       <div className="  min-h-screen  md:pt-6 pt-3  ">
       <div className="flex justify-center">

@@ -3,7 +3,7 @@ import profile from '../../src/profile-pic.png';
 
 const Aboutcontent = () => {
   return (
-    <div>
+    <div id='About'>
       <div className="flex flex-col  md:flex-row h-[600px]">
         {/* Left Side Image */}
         <div className="w-full mb-9 md:mb-0 md:w-1/2 p-4 flex justify-center items-center md:h-auto md:mt-8">

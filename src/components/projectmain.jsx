@@ -3,7 +3,7 @@ import Cardmain from "./cardmain";
 let Projectmain=()=>{
 
     return (
-        <div className=" h-auto ">
+        <div className=" h-auto  ">
         <div className=" text-center md:mb-32  h-16">
             <h1 className=" text-5xl font-bold text-black ">Project</h1>
         </div>

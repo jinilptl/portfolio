@@ -4,7 +4,7 @@ let Projectpage =()=>{
 
 
     return(
-        <div className=" md:h-[1200px] h-auto">
+        <div className=" md:h-[1200px] h-auto" id="projects">
             <Projectmain>
                 <Card></Card>
             </Projectmain>

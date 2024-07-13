@@ -2,7 +2,7 @@ import Contectmain from "../components/contectmain";
 
 let Contectpage=()=>{
     return (
-        <div className="">
+        <div >
             <Contectmain></Contectmain>
         </div>
     )
