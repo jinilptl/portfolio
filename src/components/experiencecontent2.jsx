@@ -1,9 +1,18 @@
 import { GoDotFill } from "react-icons/go";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 let Experiencecontent2 = () => {
+  useEffect(() => {
+    AOS.init();
+}, []);
+
     return (
-      <div className="main md:w-[800px] md:h-[320px] mr-5 md:ml-5 ml-1 ">
+      <div className="main md:w-[800px] md:h-[320px] mr-5 md:ml-5 ml-1 " data-aos="flip-right"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
         <div className="md:w-[795px] md:h-[310px] w-[330px] h-[250px]  rounded-[10px] md:p-[10px] border border-customPurple shadow-custom2 p-[5px]">
 
           <div className="heading md:mb-0 mb-3 ">

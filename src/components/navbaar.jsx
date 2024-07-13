@@ -1,6 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Navbaar = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -9,7 +16,9 @@ const Navbaar = () => {
 
   return (
     <div>
-      <nav className="p-2 md:mt-0 mt-3 ">
+      <nav className="p-2 md:mt-0 mt-3 " data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
         <div className="container mx-auto">
           <div className="flex md:justify-between justify-end items-center lg:flex lg:justify-center">
             <div className="text-black text-md md:text-3xl hidden md:flex">
