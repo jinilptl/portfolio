@@ -21,7 +21,7 @@ function App() {
 }, []);
 
   return (
-    <div className='contaiiner overflow-hidden'>
+    <div className='contaiiner overflow-hidden '>
      <HomePage></HomePage>
      <AboutPage></AboutPage>
      <Educationpage></Educationpage>
