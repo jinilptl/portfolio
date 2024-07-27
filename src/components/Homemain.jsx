@@ -56,8 +56,8 @@ const Homemain = () => {
             <Primarybtn />
           </div>
         </div>
-        <div className="rightbox md:w-1/2 flex justify-center md:mt-[-120px] mt-5 lg:ml-10 ">
-          <img src={myimage} alt="Profile" className="animated-image" />
+        <div className="rightbox md:w-1/2 flex justify-center md:mt-[-120px] mt-14 lg:ml-10 rounded-[20px] w-[90%]  ">
+          <img src={myimage} alt="Profile" className="animated-image opacity-80" />
         </div>
       </div>
 
