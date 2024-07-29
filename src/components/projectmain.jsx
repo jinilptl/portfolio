@@ -3,14 +3,14 @@ import Cardmain from "./cardmain";
 let Projectmain=()=>{
 
     return (
-        <div className=" h-auto  ">
-        <div className=" text-center md:mb-32  h-16">
-            <h1 className=" text-5xl font-bold text-black ">Project</h1>
+        <div className=" h-auto ">
+        <div className=" text-center md:mb-10  h-16">
+            <h1 className=" md:text-5xl text-3xl font-bold text-white opacity-80 ">Most Popular Projects</h1>
         </div>
 
 
       <div className="carddiv ">
-        <div className="1stcardmain md:mb-[200px]">
+        <div className="1stcardmain ">
         <Cardmain></Cardmain>
         </div>
 
