@@ -39,7 +39,7 @@ let Techskillmain = () => {
     return (
         <div className="maintech min-h-screen  mt-12">
             <div className="text-center mb-12 h-16">
-                <h1 className="md:text-5xl font-bold text-black text-[40px]">Technical skills</h1>
+                <h1 className="md:text-5xl font-bold text-white opacity-80 text-[40px]">Technical skills</h1>
             </div>
 
             <div className="Allskill  ">
