@@ -18,7 +18,7 @@ const Navbaar = () => {
       <nav className="p-2 md:mt-0 mt-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <div className="container mx-auto">
           <div className="flex md:justify-between justify-end items-center lg:flex lg:justify-end lg:mr-24">
-            <div className="text-[#00b4d8] text-md md:text-2xl hidden md:flex md:pt-4">
+            <div className="text-white opacity-80 text-md md:text-2xl hidden md:flex md:pt-4">
               <a href="#home" className="nav-link block md:inline-block md:px-4 md:py-2">Home</a>
               <a href="#projects" className="nav-link block md:inline-block md:px-4 md:py-2">Projects</a>
               <a href="#contact" className="nav-link block md:inline-block md:px-4 md:py-2">Contact Us</a>
@@ -37,10 +37,10 @@ const Navbaar = () => {
           </div>
           {isOpen && (
             <div className="mt-2 lg:hidden flex flex-col items-end ">
-              <a href="#home" className="nav-link block text-[#00b4d8] text-md py-2">Home</a>
-              <a href="#projects" className="nav-link block text-[#00b4d8] text-md py-2">Projects</a>
-              <a href="#contact" className="nav-link block text-[#00b4d8] text-md py-2">Contact Us</a>
-              <a href="#about" className="nav-link block text-[#00b4d8] text-md py-2">About Us</a>
+              <a href="#home" className="nav-link block text-white opacity-80 text-md py-2">Home</a>
+              <a href="#projects" className="nav-link block text-white opacity-80 text-md py-2">Projects</a>
+              <a href="#contact" className="nav-link block text-white opacity-80 text-md py-2">Contact Us</a>
+              <a href="#about" className="nav-link block text-white opacity-80 text-md py-2">About Us</a>
             </div>
           )}
         </div>

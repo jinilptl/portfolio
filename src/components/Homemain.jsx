@@ -35,7 +35,7 @@ const Homemain = () => {
           <div className="md:w-full">
             <h1 className="md:text-5xl text-2xl font-bold" data-aos="fade-up">
               <span>
-               <span className=" text-[#00b4d8]">Hi, I am</span>  <span className="animated-text">Surendra Pandar</span>
+               <span className=" text-white opacity-80">Hi, I am</span>  <span className="animated-text">Surendra Pandar</span>
               </span>
             </h1>
           </div>
@@ -45,7 +45,7 @@ const Homemain = () => {
             </h2>
           </div>
           <div className="">
-            <p className="md:text-3xl text-md text-[#0077b6]" data-aos="fade-up">
+            <p className="md:text-3xl text-md text-white opacity-80" data-aos="fade-up">
               I am a full stack developer, currently working at Wisflux Tech Labs as a full stack developer
             </p>
           </div>
@@ -64,11 +64,11 @@ const Homemain = () => {
       {/* Custom CSS */}
       <style jsx>{`
         @keyframes colorChange {
-          0% { color: #ff6b6b; }
-          25% { color: #ffcc00; }
-          50% { color: #00bfff; }
-          75% { color: #ff6347; }
-          100% { color: #ff6b6b; }
+          0% { color: #FFFFFFCC; }
+          25% { color: #FFFFFFCC; }
+          50% { color: #FFFFFFCC; }
+          75% { color: #FFFFFFCC; }
+          100% { color: #FFFFFFCC; }
         }
 
         .animated-text {
