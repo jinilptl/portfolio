@@ -3,12 +3,12 @@ import Experiencecontent2 from "./experiencecontent2";
 import Experiencecontent3 from "./experiencecontent3";
 let Experiencemain = () => {
   return (
-    <div className=" mt-10">
+    <div className=" mt-10 md:mt-20">
 
       <div className=" min-h-screen ">
 
         <div className=" text-center mb-10  h-16">
-          <h1 className=" text-5xl font-bold text-black ">Experience </h1>
+          <h1 className=" text-5xl font-bold  text-white opacity-80 ">Experience </h1>
         </div>
 
         <div className="maincontent">

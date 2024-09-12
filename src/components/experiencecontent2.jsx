@@ -17,10 +17,10 @@ let Experiencecontent2 = () => {
 
           <div className="heading md:mb-0 mb-3 ">
             <div className="firstheading w-full md:h-[62px] ">
-              <h1 className="md:text-[36px] font-bold font-roboto text-[25px]">Web Security Intern(Paid)</h1>
+              <h1 className="md:text-[36px] font-bold font-roboto text-[25px]  text-white opacity-80">Web Security Intern(Paid)</h1>
             </div>
             <div className="secondheading md:w-[215px] md:h-[48px] md:mt-[-8px]">
-              <h1 className="md:text-[24px] font-medium font-roboto text-[22px]">SecureLayer7</h1>
+              <h1 className="md:text-[24px] font-medium font-roboto text-[22px]  text-white opacity-80">SecureLayer7</h1>
             </div>
           </div>
 
@@ -29,16 +29,16 @@ let Experiencecontent2 = () => {
 
             <div className="firstpara flex md:w-[656px] md:h-[35px] items-center md:mb-0 mb-4">
 
-             <p className="md:text-[20px] text-[20px]"><GoDotFill /></p>
-              <p className="para md:text-[20px] text-[17px] font-normal ml-3 ">
+             <p className="md:text-[20px] text-[20px]  text-white opacity-80"><GoDotFill /></p>
+              <p className="para md:text-[20px] text-[17px] font-normal ml-3  text-white opacity-80 ">
               Secure a paid  internship in 1st year of college in the field of cybersecurity.
               </p>
             </div>
 
              <div className="secondpara  flex  md:w-[656px] md:h-[55px] items-center leading-5 md:mb-0 mb-4">
 
-             <p className="text-[20px]"><GoDotFill /></p>
-              <p className="para md:text-[20px] text-[17px] font-normal ml-3">
+             <p className="text-[20px]  text-white opacity-80"><GoDotFill /></p>
+              <p className="para md:text-[20px] text-[17px] font-normal ml-3  text-white opacity-80">
               Work on Web Application Security for company client.</p>
             </div>
 
